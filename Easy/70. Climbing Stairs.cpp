@@ -14,7 +14,6 @@ Explanation: There are two ways to climb to the top.
 2. 2 steps
 
   */
-
 class Solution {
 public:
     int climbStairs(int n) {
@@ -22,9 +21,9 @@ public:
             return 1;
         if(n==1 | n==2)
             return n;
-        else 
-            int v=climbStairs(n-1)+climbStairs(n-2);
-    int step[n]=v;
-        return v;
+        
+            int ans = climbStairs(n-1) + climbStairs(n-2);
+    
+        return ans;
     }
 };
