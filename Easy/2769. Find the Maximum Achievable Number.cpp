@@ -18,3 +18,9 @@ It can be proven that there is no achievable number larger than 6.
 
 */
 
+class Solution {
+public:
+    int theMaximumAchievableX(int num, int t) {
+     return num+2*t;   
+    }
+};
