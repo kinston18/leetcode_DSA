@@ -1,7 +1,9 @@
 /*
   Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
 
- 
+ Sum of first N numbers(S1) = (N*(N+1))/2
+Sum of all array elements(S2) = i = 0n-2a[i]
+The missing number = S1-S2
 
 Example 1:
 
